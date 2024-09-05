@@ -15,4 +15,4 @@
 * SVC ('models__kernel': ['linear', 'rbf', 'poly'], 'preprocessor__num': [StandardScaler(), MinMaxScaler(), 'passthrough'])
 * LogisticRegression, ('models__C': range(1,5), 'preprocessor__num': [StandardScaler(), MinMaxScaler(), 'passthrough'])
 
-Оценка предсказаний моделей производилась по метрике ROC-AUC. Наивысшие показатели имела модель - Метод К ближайших соседей (SVC) с количеством соседей 'models__n_neighbors': 3 и методом масштабирования признаков 'preprocessor__num': StandardScaler().
+Оценка предсказаний моделей производилась по метрике ROC-AUC. Наивысшие показатели имела модель - Метод К ближайших соседей (KNeighborsClassifier) с количеством соседей 'models__n_neighbors': 3 и методом масштабирования признаков 'preprocessor__num': StandardScaler().
